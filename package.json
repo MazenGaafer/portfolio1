@@ -13,7 +13,6 @@
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "react": "^18.2.0",
-    "react-cursor": "^2.0.15",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.315",
     "react-tsparticles": "^2.12.2",
