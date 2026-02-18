@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node build-script.js",
     "preview": "vite preview",
-    "vercel-build": "npm run build"
+    "vercel-build": "node build-script.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
