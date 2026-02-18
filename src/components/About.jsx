@@ -23,7 +23,7 @@ const About = () => {
                 <p>Happy Clients</p>
               </div>
             </div>
-            <a href="#" className="btn btn-outline">Download Resume</a>
+            <a href="/resume.pdf" className="btn btn-outline" download>Download Resume</a>
           </div>
           <div className="about-image animated">
             <Tilt className="tilt-card" tiltMaxAngleX={5} tiltMaxAngleY={5} perspective={1200}>
