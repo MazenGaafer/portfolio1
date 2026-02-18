@@ -38,22 +38,29 @@ const Skills = () => {
         { name: 'HTML', level: '95%' },
         { name: 'CSS', level: '90%' },
         { name: 'JavaScript', level: '85%' },
-        { name: 'React', level: '80%' }
+        { name: 'React.js', level: '95%' },
+        { name: 'Angular', level: '80%' }
+
       ]
     },
     {
       category: 'Backend',
       icon: 'fas fa-server',
       skills: [
-        { name: 'PHP (Laravel)', level: '85%' },
-        { name: 'Node.js', level: '80%' }
+        { name: 'PHP', level: '85%' },
+        { name: 'Node.js', level: '90%' },
+        { name: 'Express.js', level: '80%' },
+        { name: 'Laravel', level: '80%' }
       ]
     },
     {
       category: 'Database',
       icon: 'fas fa-database',
       skills: [
-        { name: 'MySQL', level: '85%' }
+        { name: 'MySQL', level: '85%' },
+        { name: 'PostgreSQL', level: '85%' },
+        { name: 'MongoDB', level: '85%' },
+        { name: 'SQLite', level: '85%' }
       ]
     },
     {

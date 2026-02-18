@@ -6,6 +6,8 @@ import ecomImage from '../assets/ecom.webp';
 import taskImage from '../assets/task.webp';
 import blogImage from '../assets/blog.webp';
 import resImage from '../assets/res.webp';
+import laravelCrudImage from '../assets/laravel-crud.jpg';
+import nodeAppImage from '../assets/node-app.jpg';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -18,7 +20,7 @@ const Projects = () => {
       technologies: ['React', 'Node.js', 'MySQL', 'Express'],
       category: 'fullstack',
       demoLink: '#',
-      githubLink: '#',
+      githubLink: 'https://github.com/MazenGaafer/Full-E-commerce-electronic-.git',
       image: ecomImage
     },
     {
@@ -50,6 +52,26 @@ const Projects = () => {
       demoLink: '#',
       githubLink: '#',
       image: resImage
+    },
+    {
+      id: 5,
+      title: 'Laravel CRUD Operations',
+      description: 'Advanced backend system with complete CRUD operations using Laravel framework, featuring user authentication, data validation, and secure API endpoints.',
+      technologies: ['PHP', 'Laravel', 'MySQL', 'REST API'],
+      category: 'backend',
+      demoLink: '#',
+      githubLink: 'https://github.com/MazenGaafer/laravel-CRUD-operation-.git',
+      image: laravelCrudImage
+    },
+    {
+      id: 6,
+      title: 'Node.js Backend API',
+      description: 'Professional backend API service built with Node.js and Express.js featuring RESTful endpoints, authentication, and database integration.',
+      technologies: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API'],
+      category: 'backend',
+      demoLink: '#',
+      githubLink: 'https://github.com/MazenGaafer/Node.js-web-application.git',
+      image: nodeAppImage
     }
   ];
 
